@@ -2,22 +2,25 @@
 <html>
 	<head>
 		<title>Metronomo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/style.css">
 		<!-- css -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- google font -->
 		<link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
-
 	</head>
 
 	<body>
-		<h1>40 bpm</h1>
-		<input type="range" min="40" max="218" value="40" id="bpm">
-		<audio src="audio/clap.mp3"></audio>
-		<button id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+		<div class="container">
+			<h1>40 bpm</h1>
+			<input type="range" min="40" max="218" value="40" id="bpm">
+			<audio src="audio/clap.mp3"></audio>
+			<button id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+		</div>
 
-		<!-- Font Awesome -->
+		<!-- font awesome -->
 		<script src="https://use.fontawesome.com/c9c9c0e555.js"></script>
-		<!-- JS -->
+		<!-- js -->
 		<script src="js/script.js"></script>
 	</body>
 </html>
