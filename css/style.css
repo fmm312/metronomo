@@ -76,3 +76,9 @@ input[type='range']::-webkit-slider-thumb::before {
   top: 8px; 
   background: #777;
 }
+
+@media (max-width: 480px){
+  h1{
+    font-size: 55px;
+  }
+}
